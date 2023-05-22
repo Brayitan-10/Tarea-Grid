@@ -1,0 +1,169 @@
+body{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "logo   navbar  navbar"
+    "main   main    sidebear"
+    "news   news    news";
+}
+
+.logo{
+    grid-area: logo;
+    /* background-color: aqua; */
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav-items{
+    grid-area: navbar;
+    /* background-color: aquamarine; */
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main{
+    grid-area: main;
+    /* background-color: blueviolet; */
+}
+
+aside{
+    grid-area: sidebear;
+    background-color: #00001A;
+    padding-left: 18px;
+}
+
+section{
+    grid-area: news;
+    /* background-color: yellow; */
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    padding-left: 18px;
+}
+
+#logo-principal{
+    /* width: 695px; */
+    height: 251px;
+    display: grid;
+}
+
+.NNN{
+    display: grid;
+    justify-items: stretch;
+}
+
+p{
+    font-size: 10px;
+}
+
+aside h1{
+    color: goldenrod;
+    font-size: xx-large;
+}
+
+aside p{
+    color: rgba(255, 255, 255, 0.685);
+}
+
+h3{
+    color: white;
+}
+
+/* main .lado-parrafo p{
+    display: grid;
+    place-content: center;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+#zzz{
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+} */
+
+#new-1-1{
+    height: 93px;
+}
+
+main .lado-parrafo p{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    bottom: 130px;
+    left: 18px;
+}
+
+h4{
+    color: gray;
+}
+
+section p{
+    color: gray;
+}
+
+.news-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section h4{
+    font-size: 20px;
+    position: relative;
+    left: 80px;
+    bottom: 118px;
+}
+
+section h5{
+    position: relative;
+    left: 80px;
+    bottom: 145px;
+}
+
+section p{
+    position: relative;
+    left: 80px;
+    bottom: 158px;
+}
+
+section{
+    height: 108px;
+}
+
+.new-2{
+    position: relative;
+    right: 50px;
+}
+
+.new-3{
+    position: relative;
+    right: 100px;
+}
+
+.boton-read-more{
+    position: relative;
+    left: 200px;
+    bottom: 120px;
+    border: solid rgba(255, 0, 0, 0.678) 1px;
+    width: 150px;
+    background-color: rgba(255, 0, 0, 0.678);
+}
+
+main .boton-read-more p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    height: 450px;
+}
